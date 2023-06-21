@@ -5,7 +5,7 @@
 # Time Complexity: >> Time cost of an algorithm to execute a set of instructions (relative to the input?).
 # Space Complexity: >> Memory cost of an algorithm to execute a set of instructions. (relative to the input?).
 """
-For the following examples, n could be the actual input, or the size of the input.
+For the following examples, n could be the actual input or the size of the input.
 So n could be an actual number, and it could be the number of items in an input list or map, or object, etc...
 """
 
@@ -45,7 +45,7 @@ def logarithmic_big_o(n):
 """
     Drop The Constants!
     Steps of a constant time complexity can be dropped because they have
-    no significant effect. Also in big-o we are only interested for the events
+    no significant effect. Also in big-o, we are only interested in the events
     that happen when n gets arbitrarily large.
 """
 
@@ -72,7 +72,7 @@ def drop_the_constant_2(n):
     # This is also a constant complexity O(n/2)
     middle = len(n) // 2
     index = 0
-    # This is linear time complexity
+    # This is a linear time complexity
     while index <= middle:
         print(n[index])
         index += 1
@@ -84,8 +84,8 @@ def drop_the_constant_2(n):
 
 """
     Best-Case, Worst-Case
-    In big-o, we typically focus on worst-case step in the algorithm that generates
-    more time-complexity. This is the opposite of big-o theta = best case, or big-o omega = average case.
+    In big-o, we typically focus on the worst-case step in the algorithm that generates
+    more time complexity. This is the opposite of big-o theta = best case, or big-o omega = average case.
     We also can use a combination of the three to estimate the worst, good, and average cases. 
 """
 
