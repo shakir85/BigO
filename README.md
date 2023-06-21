@@ -1,2 +1,2 @@
-# ads
-Data structures and algorithms 101
+# BigO
+Big-O notation by example.
